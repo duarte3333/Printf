@@ -176,6 +176,6 @@ int	ft_printf(const char *string, ...)
 
 // int main()
 // {
-// 	ft_printf("%d\n", 0);
-//     printf("%d\n", 0);
+// 	ft_printf("%s\n", "o pratas é gay");
+//     printf("%s\n", "e tem tenho 20 anos");
 // }
