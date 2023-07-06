@@ -1,7 +1,7 @@
 # Printf
 
 ## Goal of the project
-In this project I replicated the behavior of the printf function from the stdio.h library, so I learned how to create argument lists with va_list, va_start and va_end. I learn how to get to the pointer of an element, through base changes. Lastly, i consolidated my makefile knowledge once again.
+I had to create my own version of the printf function in C. This project helped me understand how the printf function works and how to handle different format specifiers like %d for integers, %s for strings, and %f for floating-point numbers. I learned about variadic functions, string manipulation, and formatting rules. 
 
 ## Variadic functions (Funções variádicas)
 
