@@ -20,15 +20,12 @@ A variadic function is a function that can accept a variable number of arguments
 **Example:**
 
 ```c
-#include <stdio.h>
-#include <stdarg.h>
-
 void print_numbers(int fixed_int, double fixed_double, int count, ...)
 {
-		printf("Fixed int: %d\n", fixed_int);
-	  printf("Fixed double: %lf\n", fixed_double);    
+	printf("Fixed int: %d\n", fixed_int);
+	printf("Fixed double: %lf\n", fixed_double);    
 		
-		va_list args;
+	va_list args;
     va_start(args, count);
 
     for (int i = 0; i < count; i++) {
@@ -41,8 +38,7 @@ void print_numbers(int fixed_int, double fixed_double, int count, ...)
 
 int main()
 {
-    print_numbers(3, 10, 20, 30);  // Output: 10 20 30
-
+    print_numbers(3, 10, 2, 30, 40);  // Output: 30 40
     return 0;
 }
 ```
